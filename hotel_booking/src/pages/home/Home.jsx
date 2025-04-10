@@ -15,10 +15,6 @@ const Home = () => {
         <div className="homeDescription">
           Discover the best hotels and book your stay with ease.
         </div>
-        <div className="homeSearch">
-          <input type="text" placeholder="Search for hotels..." />
-          <button>Search</button>
-        </div>
         <Featured/>
         <h1 className="homeTitle">Some Featured Hotels</h1>
         <FeaturedProperties/>
